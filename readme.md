@@ -66,5 +66,5 @@ A arquitetura de microservices divide a aplicação em serviços independentes, 
 ```
 
 ```txt 
-    substituir no appsettings.json, o "OracleConnection" pelo enviado pelo txt
+    substituir no appsettings.json, o "OracleConnection" pelo enviado em txt
 ```
