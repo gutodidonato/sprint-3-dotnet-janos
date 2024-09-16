@@ -5,6 +5,11 @@
 Este projeto é uma aplicação monolítica desenvolvida com ASP.NET Core, utilizando o padrão Repository para isolar a lógica de acesso a dados da lógica de negócios. A aplicação inclui endpoints REST para diversas operações e é projetada para ser simples de desenvolver e implantar.
 
 ## Arquitetura
+### Justificativa do uso da arquitetura monolítica no projeto
+Para um projeto em seu estágio inicial, a arquitetura monolítica apresenta vantagens significativas. A simplicidade de manutenção é um dos principais atrativos, pois todo o código reside em um único lugar, facilitando a compreensão e as alterações. A curva de aprendizado para novos desenvolvedores também é menor, já que não há a complexidade de lidar com múltiplos serviços.
+Além disso, a rápida implantação em diferentes ambientes é outro benefício. A aplicação pode ser facilmente replicada em máquinas distintas, agilizando o processo de desenvolvimento e testes.
+No entanto, é importante ressaltar que essa arquitetura apresenta limitações à medida que o projeto cresce. A manutenção pode se tornar mais desafiadora à medida que a base de código aumenta, e a escalabilidade pode ser comprometida. Por isso, é fundamental avaliar a evolução do projeto e estar preparado para migrar para uma arquitetura de microsserviços quando necessário.
+
 
 ### Arquitetura Monolítica
 
