@@ -12,6 +12,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using Microsoft.OpenApi.Models;
+using Janos.Controllers;
 
 namespace Janos
 {
@@ -34,6 +35,8 @@ namespace Janos
             services.AddScoped<IEnderecoRepository, EnderecoRepository>();
             services.AddScoped<IItemRepository, ItemRepository>();
             services.AddScoped<INotaRepository, NotaRepository>();
+            services.AddHttpClient<EnderecoController>();
+
 
             services.AddControllers();
             services.AddEndpointsApiExplorer();

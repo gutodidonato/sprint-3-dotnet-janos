@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Guto\\Downloads\\Sprint-3-dotnet-main\\Sprint-3-dotnet-main\\Janos\\Janos.csproj": {}
+    "C:\\Users\\Guto\\Desktop\\DotNet\\Janos2\\sprint-3-dotnet-janos\\Janos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Guto\\Downloads\\Sprint-3-dotnet-main\\Sprint-3-dotnet-main\\Janos\\Janos.csproj": {
+    "C:\\Users\\Guto\\Desktop\\DotNet\\Janos2\\sprint-3-dotnet-janos\\Janos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Guto\\Downloads\\Sprint-3-dotnet-main\\Sprint-3-dotnet-main\\Janos\\Janos.csproj",
+        "projectUniqueName": "C:\\Users\\Guto\\Desktop\\DotNet\\Janos2\\sprint-3-dotnet-janos\\Janos.csproj",
         "projectName": "Janos",
-        "projectPath": "C:\\Users\\Guto\\Downloads\\Sprint-3-dotnet-main\\Sprint-3-dotnet-main\\Janos\\Janos.csproj",
+        "projectPath": "C:\\Users\\Guto\\Desktop\\DotNet\\Janos2\\sprint-3-dotnet-janos\\Janos.csproj",
         "packagesPath": "C:\\Users\\Guto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Guto\\Downloads\\Sprint-3-dotnet-main\\Sprint-3-dotnet-main\\Janos\\obj\\",
+        "outputPath": "C:\\Users\\Guto\\Desktop\\DotNet\\Janos2\\sprint-3-dotnet-janos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Guto\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,6 +64,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Oracle.EntityFrameworkCore": {
               "target": "Package",

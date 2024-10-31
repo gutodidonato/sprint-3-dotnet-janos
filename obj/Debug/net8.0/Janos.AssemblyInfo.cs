@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Janos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee7dc0200be151628782205aff4370d3ce3289c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Janos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Janos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
